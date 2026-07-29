@@ -1,0 +1,50 @@
+# Build and install output - produced by build_linux_x86.sh / build_windows_x86.bat
+# (CMake+Ninja build tree, install prefix, and split debug symbols all land here)
+/build/
+/dist/
+
+# Stray CMake artifacts, in case of an accidental in-source configure/build
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.ninja
+.ninja_log
+.ninja_deps
+
+# Compiled objects/binaries, in case anything ends up outside build/ or dist/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.pdb
+*.exp
+*.ilk
+*.exe
+*.debug
+
+# Visual Studio (CMake's Visual Studio generator writes these under build/,
+# but keeping this here too in case someone opens/configures a project outside it)
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini

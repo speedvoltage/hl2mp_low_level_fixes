@@ -1,0 +1,5 @@
+"Metamod Plugin"
+{
+	"alias"		"hl2mp_lowlevel_fixes"
+	"file"		"addons/hl2mp_lowlevel_fixes/bin/hl2mp_lowlevel_fixes"
+}
