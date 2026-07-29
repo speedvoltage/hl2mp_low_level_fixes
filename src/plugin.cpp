@@ -304,7 +304,7 @@ const char *HL2MPLowLevelFixes::GetDescription()
 
 const char *HL2MPLowLevelFixes::GetURL()
 {
-	return "https://github.com/speedvoltage/hl2dm-srv";
+	return "https://github.com/speedvoltage";
 }
 
 const char *HL2MPLowLevelFixes::GetLicense()
